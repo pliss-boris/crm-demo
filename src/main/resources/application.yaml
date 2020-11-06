@@ -1,3 +1,7 @@
 spring:
   application:
     name: crm
+  kafka:
+    admin:
+      client-id: ${spring.application.name}
+#      properties:
